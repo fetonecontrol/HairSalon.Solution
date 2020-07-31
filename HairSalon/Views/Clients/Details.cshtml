@@ -4,12 +4,14 @@
 
 @model HairSalon.Models.Client;
 
-<h2>Animal Details</h2>
+<h2>Appointment Details:</h2>
 
-<h3>@Html.DisplayNameFor(model => model.FirstName): @Html.DisplayFor(model => model.FirstName)</h3>
-<h3>@Html.DisplayNameFor(model => model.LastName): @Html.DisplayFor(model => model.LastName)</h3>
+<h3>Name: @Html.DisplayFor(model => model.FirstName) @Html.DisplayFor(model => model.LastName)</h3>
+<h3>Services: @Html.DisplayFor(model => model.Services)</h3>
 
 
 <p>@Html.ActionLink("Back to list", "Index")</p>
-<p>@Html.ActionLink("Edit Client", "Edit", new { id = Model.Id })</p>
-<p>@Html.ActionLink("Delete Client", "Delete", new { id = Model.Id })</p>
+<input type="button" class="btn btn-outline-info" value="Edit This Appointment!" onclick="location.href='@Url.Action("Edit", new { id = Model.Id })'" />
+<br>
+<br>
+<input type="button" class="btn btn-outline-info" value="Delete This Appointment!" onclick="location.href='@Url.Action("Delete", new { id = Model.Id })'" />
