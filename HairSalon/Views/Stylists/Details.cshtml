@@ -1,0 +1,34 @@
+@{
+  Layout = "_Layout";
+}
+
+@using AnimalShelter.Models
+@model AnimalShelter.Models.Category;
+
+
+<h2>Animals in the @Html.DisplayFor(model => model.Name) Category</h2>
+<hr />
+<h3>@Html.DisplayNameFor(model => model.Name): </h3>
+
+<ul>
+@* Begin list of animals in a given category *@
+@if (@Model.Animals.Count == 0)
+{
+  <p>no animals in this category</p>
+}
+
+@foreach (Animal animal in Model.Animals)
+{
+  <li>Description: @animal.Description</li>
+}
+</ul>
+
+@* End list of things in a given category *@
+@* <h3>@Html.DisplayFor(model => model.Animals)</h3> *@
+@* <h3>@Html.DisplayNameFor(model => model.Type): @Html.DisplayFor(model => model.Type)</h3> *@
+
+<p>@Html.ActionLink("Back to list", "Index")</p>
+<p>@Html.ActionLink("Edit Category", "Edit", new { id = Model.CategoryId })</p>
+<p>@Html.ActionLink("Delete Category", "Delete", new { id = Model.CategoryId })</p>
+<p>@Html.ActionLink("Add Animal to this Category", "Create", "Animals")</p>
+@* , new { id = Model.CategoryId } *@
