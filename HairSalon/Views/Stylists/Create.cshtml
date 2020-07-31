@@ -2,14 +2,20 @@
   Layout = "_Layout";
 }
 
-@model AnimalShelter.Models.Category
+@model HairSalon.Models.Stylist
 
-<h4>Add a new Category</h4>
+<h4>Register a new Stylist</h4>
 @using (Html.BeginForm())
 {
-    @Html.LabelFor(model => model.Name)
-    @Html.TextBoxFor(model => model.Name)
+    @Html.LabelFor(model => model.FirstName)
+    @Html.TextBoxFor(model => model.FirstName)
 
-    <input type="submit" value="Add new Category"/>
+    @Html.LabelFor(model => model.LastName)
+    @Html.TextBoxFor(model => model.LastName)
+    
+    @Html.LabelFor(model => model.Specialty)
+    @Html.TextBoxFor(model => model.Specialty)
+
+    <input type="submit" value="Add new Stylist"/>
 }
-<p>@Html.ActionLink("Show all Category", "Index")</p>
+<p>@Html.ActionLink("Show all Stylists", "Index")</p>

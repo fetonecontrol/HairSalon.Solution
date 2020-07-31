@@ -2,21 +2,21 @@
   Layout = "_Layout";
 }
 
-@model AnimalShelter.Models.Animal;
+@model HairSalon.Models.Client;
 
 <h2>Edit</h2>
 
-<h4>Edit this Animal: @Html.DisplayFor(model => model.Description)</h4>
+<h4>Edit this Client: @Html.DisplayFor(model => model.FirstName) @Html.DisplayFor(model => model.LastName)</h4>
 
 @using (Html.BeginForm())
 {
   @Html.HiddenFor(model => model.Id)
 
-  @Html.LabelFor(model => model.Description)
-  @Html.EditorFor(model => model.Description)
+  @Html.LabelFor(model => model.FirstName)
+  @Html.EditorFor(model => model.FirstName)
 
-  @Html.LabelFor(model => model.CategoryId)
-  @Html.DropDownList("CategoryId")
+  @Html.LabelFor(model => model.StylistId)
+  @Html.DropDownList("StylistId")
 
   <input type="submit" value="Save" />
 }

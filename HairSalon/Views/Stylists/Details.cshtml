@@ -2,33 +2,27 @@
   Layout = "_Layout";
 }
 
-@using AnimalShelter.Models
-@model AnimalShelter.Models.Category;
+@using HairSalon.Models
+@model HairSalon.Models.Stylist;
 
 
-<h2>Animals in the @Html.DisplayFor(model => model.Name) Category</h2>
+<h2>Clients currently booked with @Html.DisplayFor(model => model.FirstName) @Html.DisplayFor(model => model.FirstName): </h2>
 <hr />
-<h3>@Html.DisplayNameFor(model => model.Name): </h3>
+<h3>@Html.DisplayNameFor(model => model.FirstName): </h3>
 
 <ul>
-@* Begin list of animals in a given category *@
-@if (@Model.Animals.Count == 0)
+@if (@Model.Clients.Count == 0)
 {
-  <p>no animals in this category</p>
+  <p>This stylist has no current bookings</p>
 }
 
-@foreach (Animal animal in Model.Animals)
+@foreach (Client client in Model.Clients)
 {
-  <li>Description: @animal.Description</li>
+  <li>Name: @client.FirstName @client.LastName</li>
 }
 </ul>
 
-@* End list of things in a given category *@
-@* <h3>@Html.DisplayFor(model => model.Animals)</h3> *@
-@* <h3>@Html.DisplayNameFor(model => model.Type): @Html.DisplayFor(model => model.Type)</h3> *@
-
 <p>@Html.ActionLink("Back to list", "Index")</p>
-<p>@Html.ActionLink("Edit Category", "Edit", new { id = Model.CategoryId })</p>
-<p>@Html.ActionLink("Delete Category", "Delete", new { id = Model.CategoryId })</p>
-<p>@Html.ActionLink("Add Animal to this Category", "Create", "Animals")</p>
-@* , new { id = Model.CategoryId } *@
+<p>@Html.ActionLink("Edit Stylist", "Edit", new { id = Model.StylistId })</p>
+<p>@Html.ActionLink("Delete Stylist", "Delete", new { id = Model.StylistId })</p>
+<p>@Html.ActionLink("Book with this Stylist", "Create", "Clients")</p>

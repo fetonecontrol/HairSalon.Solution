@@ -2,22 +2,22 @@
   Layout = "_Layout";
 }
 
-@model AnimalShelter.Models.Animal
+@model HairSalon.Models.Client
 
-<div class="add-animal-container">
-<h4>Add a new Animal</h4>
+<div class="add-Client-container">
+<h4>Add a new Client</h4>
 @using (Html.BeginForm())
 {
-    @Html.LabelFor(model => model.Description)
-    @Html.TextBoxFor(model => model.Description)<br>
+    @Html.LabelFor(model => model.FirstName)
+    @Html.TextBoxFor(model => model.FirstName)<br>
 
-    @Html.LabelFor(model => model.Type)
-    @Html.TextBoxFor(model => model.Type)<br>
+    @Html.LabelFor(model => model.LastName)
+    @Html.TextBoxFor(model => model.LastName)<br>
 
-    @Html.LabelFor(model => model.CategoryId)
-    @Html.DropDownList("CategoryId")
-    <input type="submit" value="Add new Animal" class="btn btn-default"/>
+    @Html.LabelFor(model => model.StylistId)
+    @Html.DropDownList("StylistId")
+    <input type="submit" value="Add new Client" class="btn btn-default"/>
 }
-<p>@Html.ActionLink("Show all Animals", "Index")</p>
+<p>@Html.ActionLink("Show all Clients", "Index")</p>
 
 </div>
