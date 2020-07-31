@@ -28,5 +28,6 @@ a {
   opacity: 0.9;
 }
 h2 {
+  justify-content: center;
   font-weight: 900;
 }

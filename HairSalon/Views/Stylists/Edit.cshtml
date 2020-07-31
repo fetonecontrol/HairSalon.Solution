@@ -6,18 +6,15 @@
 
 <h2>Edit</h2>
 
-<h4>Edit this Stylist: @Html.DisplayFor(model => model.FirstName)  @Html.DisplayFor(model => model.LastName)</h4>
+<h4>Edit this Stylist:</h4>
 
 @using (Html.BeginForm())
 {
   @Html.HiddenFor(model => model.StylistId)
 
-  @Html.LabelFor(model => model.FirstName)
-  @Html.EditorFor(model => model.FirstName)
+  <p>First Name: @Html.EditorFor(model => model.FirstName)</p>
+  <p>Last Name: @Html.EditorFor(model => model.LastName)</p>
 
-  @Html.LabelFor(model => model.LastName)
-  @Html.EditorFor(model => model.LastName)
-
-  <input type="submit" value="Save" />
+  <input type="submit" class="btn btn-outline-info" value="Save" />
 }
 <p>@Html.ActionLink("Back to list", "Index")</p>
