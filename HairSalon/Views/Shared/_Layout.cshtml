@@ -7,11 +7,13 @@
     <link rel='stylesheet' href='~/css/styles.css'>
   </head>
   <body>
-  @Html.Partial("NavBar")
-  <section>
-    <div class="box">
-            @RenderBody()
+    <div style="background-image: url('img_girl.jpg');">
+    @Html.Partial("NavBar")
+    <div class="section">
+      <div class="box">
+        @RenderBody()
+      </div>
+    </div>  
     </div>
-  </section>  
   </body>
 </html>

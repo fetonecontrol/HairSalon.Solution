@@ -1,3 +1,10 @@
+/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/bin/Debug/netcoreapp2.2/HairSalon.deps.json
+/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/bin/Debug/netcoreapp2.2/HairSalon.runtimeconfig.json
+/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/bin/Debug/netcoreapp2.2/HairSalon.runtimeconfig.dev.json
+/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/bin/Debug/netcoreapp2.2/HairSalon.dll
+/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/bin/Debug/netcoreapp2.2/HairSalon.pdb
+/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/bin/Debug/netcoreapp2.2/HairSalon.Views.dll
+/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/bin/Debug/netcoreapp2.2/HairSalon.Views.pdb
 /Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/HairSalon.csprojAssemblyReference.cache
 /Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/HairSalon.csproj.CoreCompileInputs.cache
 /Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/HairSalon.RazorAssemblyInfo.cache
@@ -22,14 +29,7 @@
 /Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/Razor/Views/Stylists/Index.g.cshtml.cs
 /Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/HairSalon.RazorTargetAssemblyInfo.cache
 /Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/HairSalon.RazorTargetAssemblyInfo.cs
+/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/HairSalon.Views.pdb
 /Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/HairSalon.dll
 /Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/HairSalon.pdb
-/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/bin/Debug/netcoreapp2.2/HairSalon.deps.json
-/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/bin/Debug/netcoreapp2.2/HairSalon.runtimeconfig.json
-/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/bin/Debug/netcoreapp2.2/HairSalon.runtimeconfig.dev.json
-/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/bin/Debug/netcoreapp2.2/HairSalon.dll
-/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/bin/Debug/netcoreapp2.2/HairSalon.pdb
-/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/bin/Debug/netcoreapp2.2/HairSalon.Views.dll
-/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/bin/Debug/netcoreapp2.2/HairSalon.Views.pdb
-/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/HairSalon.Views.pdb
 /Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/HairSalon.csproj.CopyComplete

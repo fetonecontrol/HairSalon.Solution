@@ -1,24 +1,25 @@
-a {
-  font-weight: 700;
-  font-family: Helvetica;
-  color: rgb(114, 30, 210);
-}
 body { 
   cursor: default; 
   margin: 0;
   padding: 0;
 }
-section {
-  padding: 0;
-  background: url();
+.section {
+  padding: 0 100px;
+  background-image: url("../img/background.jpg");
   height: 100vh;
+  background-size: auto;
+  background-repeat: no-repeat;
   display: flex;
-  align-items: center;
 }
 .box {
-  position: top;
+  position: relative;
   max-width: 600px;
   padding: 50px;
-  background: rgba(255, 255, 255, .2);
+  background: rgba(255, 255, 255, .5);
   box-shadow: 0 5px 15px rgba(255, 255, 255, .25);
+}
+a {
+  font-weight: 900;
+  font-family: Helvetica;
+  color: rgb(114, 30, 210);
 }
