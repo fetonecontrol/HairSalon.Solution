@@ -12,6 +12,7 @@ namespace HairSalon.Models
         public int StylistId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string About {get; set;}
         public string Specialty { get; set; }
         public virtual ICollection<Client> Clients { get; set; }
     }
