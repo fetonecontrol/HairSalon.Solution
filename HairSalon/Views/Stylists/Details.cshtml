@@ -6,9 +6,9 @@
 @model HairSalon.Models.Stylist;
 
 
-<h2>Clients currently booked with @Html.DisplayFor(model => model.FirstName) @Html.DisplayFor(model => model.FirstName): </h2>
+<h2>Clients currently booked with</h2>
+<h3>@Html.DisplayFor(model => model.FirstName) @Html.DisplayFor(model => model.LastName):</h3>
 <hr />
-<h3>Clients: </h3>
 
 <ul>
 @if (@Model.Clients.Count == 0)

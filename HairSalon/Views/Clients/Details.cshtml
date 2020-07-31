@@ -10,7 +10,9 @@
 <h3>Services: @Html.DisplayFor(model => model.Services)</h3>
 
 
-<p>@Html.ActionLink("Back to list", "Index")</p>
+<input type="button" class="btn btn-outline-info" value="Back to Appointments" onclick="location.href='@Url.Action("Index", "Clients")'" />
+<br>
+<br>
 <input type="button" class="btn btn-outline-info" value="Edit This Appointment!" onclick="location.href='@Url.Action("Edit", new { id = Model.Id })'" />
 <br>
 <br>

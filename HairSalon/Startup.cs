@@ -31,8 +31,10 @@ namespace HairSalon
 
     public void Configure(IApplicationBuilder app)
     {
+      app.UseStaticFiles();
+      
       app.UseDeveloperExceptionPage();
-
+      
       app.UseMvc(routes =>
       {
         routes.MapRoute(
