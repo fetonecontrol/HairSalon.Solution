@@ -21,8 +21,7 @@
   <li>Name: @client.FirstName @client.LastName</li>
 }
 </ul>
+<input type="button" class="btn btn-outline-info" value="Book with This Stylist" onclick="location.href='@Url.Action("Create", "Stylists")'" />
+<input type="button" class="btn btn-outline-info" value="Edit This Profile" onclick="location.href='@Url.Action("Index", "Stylists")'" />
+<input type="button" class="btn btn-outline-info" value="Delete This Profile" onclick="location.href='@Url.Action("Delete", "Stylists")'" />
 
-<p>@Html.ActionLink("Back to list", "Index")</p>
-<p>@Html.ActionLink("Edit Stylist", "Edit", new { id = Model.StylistId })</p>
-<p>@Html.ActionLink("Delete Stylist", "Delete", new { id = Model.StylistId })</p>
-<p>@Html.ActionLink("Book with this Stylist", "Create", "Clients")</p>
