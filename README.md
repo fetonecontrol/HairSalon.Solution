@@ -21,6 +21,7 @@ _Gather User input for many to one MySql database associateions_
 * _Clone or download this repository located at https://github.com/fetonecontrol/HairSalon.Solution_
 * _Run $ dotnet restore to download all dev dependencies_
 * _Run $ dotnet build to create project_
+* _In MySql WorkBench, select Data Import from the Server tab, navigate to the root directory of this folder, and select frederick_ernest.sql_
 
 ## Known Bugs
 
