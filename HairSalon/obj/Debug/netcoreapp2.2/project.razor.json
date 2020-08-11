@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/HairSalon.csproj",
+  "FilePath": "/Users/frederickernest/Desktop/Epicodus/HairSalon.Solution/HairSalon/HairSalon.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2961,68 +2961,68 @@
   "RootNamespace": "HairSalon",
   "Documents": [
     {
-      "FilePath": "/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/Views/Clients/Delete.cshtml",
-      "TargetPath": "Views\\Clients\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/Views/Stylists/Create.cshtml",
-      "TargetPath": "Views\\Stylists\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/Views/Shared/NavBar.cshtml",
-      "TargetPath": "Views\\Shared\\NavBar.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/Views/Stylists/Delete.cshtml",
-      "TargetPath": "Views\\Stylists\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/Views/Stylists/Details.cshtml",
-      "TargetPath": "Views\\Stylists\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/Views/Home/Index.cshtml",
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/HairSalon.Solution/HairSalon/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/Views/Clients/Index.cshtml",
-      "TargetPath": "Views\\Clients\\Index.cshtml",
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/HairSalon.Solution/HairSalon/Views/Clients/Delete.cshtml",
+      "TargetPath": "Views\\Clients\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/Views/Clients/Details.cshtml",
-      "TargetPath": "Views\\Clients\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/Views/Clients/Create.cshtml",
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/HairSalon.Solution/HairSalon/Views/Clients/Create.cshtml",
       "TargetPath": "Views\\Clients\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/Views/Clients/Edit.cshtml",
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/HairSalon.Solution/HairSalon/Views/Clients/Edit.cshtml",
       "TargetPath": "Views\\Clients\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/HairSalon.Solution/HairSalon/Views/Clients/Details.cshtml",
+      "TargetPath": "Views\\Clients\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/Views/Stylists/Edit.cshtml",
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/HairSalon.Solution/HairSalon/Views/Clients/Index.cshtml",
+      "TargetPath": "Views\\Clients\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/HairSalon.Solution/HairSalon/Views/Stylists/Details.cshtml",
+      "TargetPath": "Views\\Stylists\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/HairSalon.Solution/HairSalon/Views/Stylists/Edit.cshtml",
       "TargetPath": "Views\\Stylists\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/frederickernest/Desktop/HairSalon.Solution/HairSalon/Views/Stylists/Index.cshtml",
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/HairSalon.Solution/HairSalon/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/HairSalon.Solution/HairSalon/Views/Shared/NavBar.cshtml",
+      "TargetPath": "Views\\Shared\\NavBar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/HairSalon.Solution/HairSalon/Views/Stylists/Index.cshtml",
       "TargetPath": "Views\\Stylists\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/HairSalon.Solution/HairSalon/Views/Stylists/Delete.cshtml",
+      "TargetPath": "Views\\Stylists\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/HairSalon.Solution/HairSalon/Views/Stylists/Create.cshtml",
+      "TargetPath": "Views\\Stylists\\Create.cshtml",
       "FileKind": "mvc"
     }
   ],
