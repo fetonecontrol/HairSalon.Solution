@@ -24,8 +24,12 @@ namespace HairSalon.Controllers
 
     public ActionResult Create()
     {
+      if (_db.Stylists.Any())
+      {
       ViewBag.StylistId = new SelectList(_db.Stylists, "StylistId", "FirstName");
       return View();
+      }
+      return RedirectToAction("Index");
     }
 
     [HttpPost]
